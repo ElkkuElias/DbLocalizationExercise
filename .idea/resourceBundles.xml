@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ResourceBundleManager">
+    <file url="file://$PROJECT_DIR$/src/main/resources/Bundle_en.properties.properties" />
+    <file url="file://$PROJECT_DIR$/src/main/resources/Bundle_fa.properties.properties" />
+    <file url="file://$PROJECT_DIR$/src/main/resources/Bundle_ja.properties.properties" />
+    <file url="file://$PROJECT_DIR$/src/main/resources/Bundle_ja_JP.properties.properties" />
+    <custom-resource-bundle>
+      <file value="file://$PROJECT_DIR$/src/main/resources/Bundle_en_GB.properties.properties" />
+      <file value="file://$PROJECT_DIR$/src/main/resources/Bundle_fi_FI.properties" />
+      <file value="file://$PROJECT_DIR$/src/main/resources/Bundle_ja_JP.properties.properties" />
+      <base-name>Bundle.properties</base-name>
+    </custom-resource-bundle>
+    <custom-resource-bundle>
+      <file value="file://$PROJECT_DIR$/src/main/resources/Bundle_fa_IR.properties.properties" />
+      <file value="file://$PROJECT_DIR$/src/main/resources/Bundle_fi_FI.properties" />
+      <file value="file://$PROJECT_DIR$/src/main/resources/Bundle_ja_JP.properties.properties" />
+      <base-name>Bundle.properties</base-name>
+    </custom-resource-bundle>
+    <custom-resource-bundle>
+      <file value="file://$PROJECT_DIR$/src/main/resources/Bundle_en.properties.properties" />
+      <file value="file://$PROJECT_DIR$/src/main/resources/Bundle_fa.properties.properties" />
+      <file value="file://$PROJECT_DIR$/src/main/resources/Bundle_fi_FI.properties" />
+      <file value="file://$PROJECT_DIR$/src/main/resources/Bundle_ja.properties.properties" />
+      <base-name>Bundle.properties</base-name>
+    </custom-resource-bundle>
+  </component>
+</project>
