@@ -22,7 +22,7 @@ public class HelloApplication extends Application {
 
     @Override
     public void start(Stage primaryStage) throws SQLException {
-        ComboBox<String> languageComboBox = new ComboBox<>(FXCollections.observableArrayList("English", "Farsi", "Japanese"));
+        ComboBox<String> languageComboBox = new ComboBox<>(FXCollections.observableArrayList("English", "فارسی", "日本語"));
         languageComboBox.getSelectionModel().selectFirst(); // Default to English
         lang = "en";
         // At application start
@@ -37,6 +37,7 @@ public class HelloApplication extends Application {
         Label emailLabel = new Label(bundle.getString("email"));
         TextField emailTextField = new TextField();
 
+
         // Buttons
         Button saveButton = new Button(bundle.getString("save"));
 
@@ -46,11 +47,11 @@ public class HelloApplication extends Application {
             Platform.runLater(() -> {
                 Locale locale;
                 switch (newVal) {
-                    case "Farsi":
+                    case "فارسی":
                         locale = new Locale("fa");
                         lang = "fa";
                         break;
-                    case "Japanese":
+                    case "日本語":
                         locale = new Locale("ja");
                         lang = "ja";
                         break;
